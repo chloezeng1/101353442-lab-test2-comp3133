@@ -27,4 +27,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
    
 <img width="1716" alt="Screenshot 2024-04-03 at 12 15 32 PM" src="https://github.com/chloezeng1/101353442-lab-test2-comp3133/assets/95238049/6dcbe3a6-1343-47cd-b893-0285f37b2e46">
 
+2. Filter by year
+<img width="1728" alt="Screenshot 2024-04-03 at 12 16 03 PM" src="https://github.com/chloezeng1/101353442-lab-test2-comp3133/assets/95238049/88bb5301-64ad-4395-9283-acaa151ea6f6">
+
+
 

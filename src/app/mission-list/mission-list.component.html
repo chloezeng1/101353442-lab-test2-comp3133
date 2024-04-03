@@ -1,0 +1,21 @@
+<div>
+  <!-- Input for filtering by year -->
+  <input type="text" [(ngModel)]="filterYear" (input)="onYearChange()" placeholder="Filter by Year" />
+</div>
+
+<div *ngFor="let mission of missions">
+  <!-- Using Angular Material's mat-card for styling -->
+  <mat-card (click)="viewMissionDetails(mission.flight_number.toString())">
+    <mat-card-header>
+      <!-- Display mission name and launch year in card header -->
+      <mat-card-title>{{ mission.mission_name }}</mat-card-title>
+      <mat-card-subtitle>{{ mission.launch_year }}</mat-card-subtitle>
+    </mat-card-header>
+    <!-- Display mission patch image in the card -->
+    <img mat-card-image [src]="mission.links.mission_patch_small" alt="Mission Patch">
+    <mat-card-content>
+      <!-- Display mission details in the card content -->
+      <p>{{ mission.details }}</p>
+    </mat-card-content>
+  </mat-card>
+</div>

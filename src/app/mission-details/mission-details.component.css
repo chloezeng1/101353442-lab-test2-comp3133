@@ -1,0 +1,15 @@
+.mission-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.page-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.mission-card {
+  width: 600px;
+}

@@ -1,0 +1,30 @@
+/* Style for the filter input */
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    box-sizing: border-box;
+  }
+  
+  /* Card styles for each mission */
+  mat-card {
+    margin: 10px;
+    transition: box-shadow 0.3s;
+  }
+  
+  mat-card:hover {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Image styling within the card */
+  mat-card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+  }
+  
+  /* Content styling within the card */
+  mat-card-content {
+    font-size: 14px;
+  }
+  
